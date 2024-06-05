@@ -1,0 +1,36 @@
+
+header {
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+    overflow: hidden;
+    background: #C04848;  /* fallback for old browsers */
+    background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8)), url("images/header-background.jpg");  /* Chrome 10-25, Safari 5.1-6 */
+ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-dark{
+    padding: 5rem;
+
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding:30px 50px 10px 50px;
+}
+h1{
+    font-size: 32px;
+}
+h2{
+   font-size: 14px;
+   padding: 0px 50px 5px 50px;
+   
+}
